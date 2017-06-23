@@ -37,7 +37,7 @@ function getWeatherFn(la,lo) {
 
         console.log(condition);
         console.log(temp);
-           $("#weatherContainer").html("<h5 class='red-text text-lighten-2 center-align'>"+ city + ", " + region + ", "+ country + "</h5>");
+           $("#weatherContainer").html("<h1 class='red-text text-lighten-2 center-align'>"+ city + ", " + region + ", "+ country + "</h1>");
            $("#weatherIcon").html("<img class='circle' width='"+ imgWidth +"' heigth='"+ imgHeigth +"' src='"+ imgIcon +"'>");
            $("#currentDayCondition").html("<strong>Weather Condition: </strong>" + condition);
            $("#currentDayTemp").html("<strong>Weather Temperature: </strong>"+ temp);

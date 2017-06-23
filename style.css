@@ -1,8 +1,38 @@
-p{
-  font-weight: 200;
+h1{
+  font-size: 3rem;
+  font-weight: 400;
 }
+p{
+  font-size: 12px;
+  font-weight: 200;
 
+}
 .getWeather{
     display: block;
     text-align: center;
+}
+.parentContainer{
+  padding-top:1px;
+  padding-bottom: 20px;
+}
+.weatherImg{
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+
+.weatherCardImg{
+  width: 120px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+
+#weatherDetails{
+  width:50%;
+  height: 40%;
+}
+#currentDayCondition, #currentDayTemp{
+  font-size: 120%;
 }
