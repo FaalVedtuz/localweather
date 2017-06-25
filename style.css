@@ -27,12 +27,22 @@ p{
   height: 80px;
   margin: 0 auto;
 }
-
+.lessenPadding{
+  padding:10px !important;
+}
+.lessenMargin{
+  margin-top:10px;
+  margin-bottom:10px;
+}
 
 #weatherDetails{
   width:50%;
   height: 40%;
+  padding: 30px 0 0 0;
 }
-#currentDayCondition, #currentDayTemp{
-  font-size: 120%;
+#currentFetchDate{
+  font-size:12px;
+}
+#currentDayTemp{
+  font-size: 26px;
 }
