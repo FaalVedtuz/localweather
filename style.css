@@ -16,9 +16,7 @@ p{
   padding-bottom: 20px;
 }
 .weatherImg{
-  width: 200px;
-  height: 100px;
-  display: block;
+  padding-top:10px;
   margin: auto;
 }
 
