@@ -44,8 +44,8 @@ function getWeatherFn(la,lo) {
            $("#currentDayTemp").html(temp);
            $("#currentFetchDate").html(currentFetchDate);
            for(var i =1; i < 5; i++){
-                $("#cardContainer").append("<div class='col s12 m3 l3 '><div class='card-panel blue lighten-3'><div class='card-content'><span class='card-title white-text flow-text'>"+ 
-                getDay[i].day+"</span><div class='row'><div class='col s6 m6 l6'><img class='weatherCardImg' src='images/cloudy.png' alt='cloudy' /></div><div class='col s6 m6 l6'><p>Sample Content</p></div></div></div></div></div></div>");
+                $("#cardContainer").append("<div class='col s12 m3 l3 '><div class='card-panel blue lighten-3 z-depth-3'><div class='card-content'><span class='card-title white-text flow-text'>"+ 
+                getDay[i].day+"</span><div class='row'><div class='col s4 m4 14 offset-m3 offset-s3'><img class='weatherCardImg' src='"+ getWeatherIcon(getDay[i].text) +"' alt='" + getDay[i].text +"' /></div></div><div class='row'><div class='col s12 m12 l12'><p class='flow-text center-align'>" + getDay[i].text + "</p></div></div></div></div></div></div>");
             }
         },
         error: function(err) {
@@ -60,14 +60,15 @@ function getWeatherFn(la,lo) {
     function getWeatherIcon(w_condition){
         switch (w_condition){
             case 'Cloudy':
-                return 'images/cloud.png';
+                return 'images/cloudy.png';
             case 'Partly Cloudy':
                 return'images/partly-cloudy.png';
             case 'Mostly Sunny':
                 return'images/partly-cloudy.png';
             case 'Thunderstorms':
                 return'images/thunderstorm.png';
+            case 'Showers':
+                return'images/rain.png';
         }
     }
-
 }

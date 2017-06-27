@@ -7,13 +7,16 @@ p{
   font-weight: 200;
 
 }
+body{
+  background:#e0e0e0;
+}
 .getWeather{
     display: block;
     text-align: center;
 }
 .parentContainer{
   padding-top:1px;
-  padding-bottom: 20px;
+  padding-bottom: 1px;
 }
 .weatherImg{
   padding-top:10px;
@@ -21,9 +24,8 @@ p{
 }
 
 .weatherCardImg{
-  width: 120px;
   height: 80px;
-  margin: 0 auto;
+  margin: auto;
 }
 .lessenPadding{
   padding:10px !important;
