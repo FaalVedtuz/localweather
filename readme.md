@@ -6,7 +6,7 @@ This app is a submission to the freeCodeCamp challenge Local Weather. This app d
 
 #### Frameworks / Tools used
 
-* [http://materializecss.com/](Materialize Framework)
-* [https://code.visualstudio.com/](Visual Studio Code Editor) is really awesome!
-* [https://market.mashape.com](Mashape Marketplace) for the free weather API. You can find more API's here, both free and freemium.
+* [Materialize Framework](http://materializecss.com/)
+* [Visual Studio Code Editor](https://code.visualstudio.com/) is really awesome!
+* [Mashape Marketplace](https://market.mashape.com) for the free weather API. You can find more API's here, both free and freemium.
 
