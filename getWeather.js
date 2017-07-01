@@ -62,7 +62,7 @@ function getWeatherFn(la, lo) {
                 switch(status){
                     case true:
                         $("#currentDayTemp").html($("refresh-temp").html());
-                        $("#currentDayTemp").html(rawTemp + "&#176; F");
+                        $("#currentDayTemp").html(rawTemp.toFixed(1) + "&#176; F");
                         break;
                     default:
                         $("#currentDayTemp").html($("refresh-temp").html());
@@ -97,6 +97,9 @@ function getWeatherFn(la, lo) {
                 bgImg = 'images/bg-cloudy-day.jpg';
                 return 'images/cloudy.png';
             case 'Partly Cloudy':
+                bgImg = 'images/bg-cloud-day.jpg';
+                return 'images/cloudy.png';
+            case 'Mostly Cloudy':
                 bgImg = 'images/bg-cloud-day.jpg';
                 return 'images/cloudy.png';
             case 'Mostly Sunny':
