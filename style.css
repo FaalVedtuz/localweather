@@ -6,15 +6,16 @@ h4{
   padding-top:10px;
 }
 p{
-  font-size: 12px;
+  font-size: 1.5rem;
   font-weight: 200;
 
 }
 body{
-  background:#e0e0e0; /* FALL BACK COLOR */
+  background-color:#e0e0e0; /* FALL BACK COLOR */
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   /*background-image: url("images/bg-clear-day.jpg"); */
 }
 .getWeather{
