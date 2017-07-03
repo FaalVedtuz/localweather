@@ -76,7 +76,7 @@ function getWeatherFn(la, lo) {
             $("#currentDayCondition").html(condition);
             $("#currentDayTemp").html(temp);
             $("#currentFetchDate").html(currentFetchDate);
-            $("body").css('background', 'url(' + bgImg + ')');
+            $("body").css('background-image', 'url(' + bgImg + ')');
             for (var i = 1; i < 5; i++) {
                 $("#cardContainer").append("<div class='col s12 m3 l3 '><div class='card-panel blue lighten-2 z-depth-3'><div class='card-content'><span class='card-title white-text flow-text'>" +
                     getDay[i].day + "</span><div class='row'><div class='col s8 m8 18 offset-m2 offset-s2'><img class='weatherCardImg' src='" + getWeatherCondtion(getDay[i].text) + "' alt='" + getDay[i].text + "' /></div></div><div class='row'><div class='col s12 m12 l12'><p class='flow-text white-text center-align'>" + getDay[i].text + "</p></div></div></div></div></div></div>");
