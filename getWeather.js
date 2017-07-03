@@ -94,7 +94,7 @@ function getWeatherFn(la, lo) {
     function getWeatherCondtion(w_condition) {
         switch (w_condition) {
             case 'Cloudy':
-                bgImg = 'images/bg-cloudy-day.jpg';
+                bgImg = 'images/bg-cloud-day.jpg';
                 return 'images/cloudy.png';
             case 'Partly Cloudy':
                 bgImg = 'images/bg-cloud-day.jpg';
